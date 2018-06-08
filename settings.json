@@ -1,6 +1,7 @@
 
 {
   "vessel": {
+    "mmsi": "338250881",
     "name"  : "Skookum",
     "brand" : "Gemini",
     "type"  : "105Mc",
@@ -19,7 +20,8 @@
 
   "ssl": false,
   
-  "pipedProviders": [{
+  "pipedProviders": [
+    {
     "id": "nmeaFromFile",
     "pipeElements": [
        { 
@@ -57,5 +59,6 @@
           ]
        }               
     ]
-  }]
+    }
+  ]
 }
