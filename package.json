@@ -29,6 +29,7 @@
   "dependencies": {
     "@types/node": "^10.1.3",
     "dotenv": "^5.0.1",
+    "serialport": "^6.2.2",
     "signalk-server": "github:azureafloat/signalk-server-node#simple-config"
   }
 }
